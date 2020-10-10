@@ -1,4 +1,4 @@
-let potentiometer = robotbit.RgbUltrasonic(DigitalPin.P1)
+let potentiometer = robotbit.RgbUltrasonic(DigitalPin.P13)
 basic.showIcon(IconNames.Yes)
 basic.pause(1000)
 basic.forever(function () {
